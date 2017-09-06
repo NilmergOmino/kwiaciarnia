@@ -94,8 +94,13 @@
          }
      }
 }
-
-
+.textarea-container{
+    margin-top: 15px;
+}
+.contact-buttons-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 // responsive corrects
 @media (max-width: 991px) {
     .footer{

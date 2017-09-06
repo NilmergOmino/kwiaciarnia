@@ -51,6 +51,66 @@
         </div>
     </nav>
     <main>
+        <article class="article">
+            <section class="container">
+                <div class="row">
+                    <h2 class="col-xs-12 text-center">Znajdź nas na mapie <br><small>Kraków, ul. Grzegórzki 3</small></h2>
+                    <div class="col-xs-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20489.262273667082!2d19.95291379608706!3d50.06460663311562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b25bda6c3b1%3A0x60169ae5ef5d21aa!2zR3J6ZWfDs3J6a2ksIEtyYWvDs3c!5e0!3m2!1spl!2spl!4v1502224528298" frameborder="0" allowfullscreen class="google-map"></iframe>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="article">
+            <h2 class="text-center">Możesz złożyć zamówienie lub zadać nam pytanie online<br><small>w tym celu wykorzystaj odpowiedni formularz</small></h2>
+            <div class="container contact-buttons-container">
+                <div class="row">
+                    <button class="btn btn-primary col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-2" data-toggle="collapse" data-target="#order">Złóż zamówienie</button>
+                    <button class="btn btn-primary col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-2" data-toggle="collapse" data-target="#ask-question">Zadaj pytanie</button>
+                </div>
+            </div>
+            <section class="container collapse" id="order">
+                <h2 class="text-center col-xs-12">Złóż zamówienie</h2>
+                <form class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="form-group">
+                        <label for="order-email">Twój adres email</label>
+                        <input type="email" id="order-email" class="form-control" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="order-phone-number">Twój numer telefonu</label>
+                        <input type="tel" id="order-phone-number" class="form-control" name="tel">
+                    </div>
+                    <div class="title">
+                        <label for="order-title">Tytuł wiadomości</label>
+                        <input type="text" id="order-title" class="form-control" name="title">
+                    </div>
+                    <div class="form-group textarea-container">
+                        <label for="order-content">Treść wiadomości</label>
+                        <textarea id="order-content" class="form-control" rows="3" name="content"></textarea>
+                    </div>
+                    <input type="submit" value="Wyślij" class="btn btn-success form-control">
+                </form>
+            </section>
+            <section class="container collapse" id="ask-question">
+                <h2 class="text-center">Zadaj pytanie</h2>
+                <form class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="form-group">
+                        <label for="question-email">Twój adres email</label>
+                        <input type="email" id="question-email" name="email" class="form-control">
+                    </div>
+                    <div class="title">
+                        <label for="order-title">Tytuł wiadomości</label>
+                        <input type="text" id="order-title" class="form-control" name="title">
+                    </div>
+                    <div class="form-group textarea-container">
+                        <label for="order-content">Treść wiadomości</label>
+                        <textarea id="order-content" class="form-control" rows="3" name="content"></textarea>
+                    </div>
+                    <input type="submit" value="Wyślij" class="btn btn-success form-control">
+                </form>
+            </section>
+        </article>
+
     </main>
     <footer class="conainer-fluid footer">
         <div class="row">

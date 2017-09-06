@@ -88,6 +88,13 @@
       transform: translate(-5px, -5px);
       box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.4); }
 
+.textarea-container {
+  margin-top: 15px; }
+
+.contact-buttons-container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 @media (max-width: 991px) {
   .footer {
     background-size: auto 150px; }
